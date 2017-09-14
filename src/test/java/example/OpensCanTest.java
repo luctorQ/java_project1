@@ -19,7 +19,7 @@ public class OpensCanTest {
 
 		WalrusFood result = subject.open(can);
 
-		assertThat(result, is(food));
-//		assertTrue(false);
+//		assertThat(result, is(food));
+		assertTrue(false);
 	}
 }
