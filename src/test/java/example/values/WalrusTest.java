@@ -11,7 +11,7 @@ import static org.hamcrest.Matchers.*;
 public class WalrusTest {
 
 	Walrus subject = new Walrus();
-
+//TODO just check
 	@Test
 	public void wrongFood() {
 		WalrusFood someFood = new WalrusFood();
