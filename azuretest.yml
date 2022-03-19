@@ -1,10 +1,10 @@
 trigger:
   - main
 
-  pool:
-    vmImage: 'ubuntu-latest'
+pool:
+  vmImage: 'ubuntu-latest'
 
-  steps:
+steps:
   - task: Maven@3
     inputs:
       mavenPomFile: 'pom.xml'
